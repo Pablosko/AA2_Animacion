@@ -9,7 +9,7 @@ internal class MyTentacleController
 {
     TentacleMode tentacleMode;
     Transform[] _bones;
-    Transform _endEffectorSphere;
+    public Transform _endEffectorSphere;
     bool debug = false;
 
     public Transform[] Bones { get => _bones; }
